@@ -21,4 +21,5 @@ let s: symbol = Symbol()
 let array: number[] = [1, 2, 3]                 //数字类型的数组
 let array2: Array<string> = ['1', '2', '3']     //string类型的数组
 let array3: boolean[] = [true, false]
-let arr: (string | number)[] = ['test', 2]
+let arr: (string | number)[] = ['test', 2, 3, 4, 5]
+let arr2: string | number[] = 'test'    //这个就是arr2要么是string 要嘛是number类型的数组
