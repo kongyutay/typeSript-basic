@@ -15,3 +15,10 @@ let isLoading: boolean = true
 let a: null = null
 let b: undefined = undefined
 let s: symbol = Symbol()
+
+//对象类型：分得比较仔细，每个对象类型都有自己的类型语法
+//数组的两种写法
+let array: number[] = [1, 2, 3]                 //数字类型的数组
+let array2: Array<string> = ['1', '2', '3']     //string类型的数组
+let array3: boolean[] = [true, false]
+let arr: (string | number)[] = ['test', 2]
