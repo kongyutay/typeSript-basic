@@ -19,3 +19,8 @@ const add3: (num1: number, num2: number) => number = (num1, num2) => {
 function greet(name: string): void {
     console.log('Hello', name)
 }
+
+//4. 可选参数，有时候参数可以传和不传
+function mySlice(start?: number, end?: number): void {
+    console.log('起始索引', start, '结束索引', end)
+}
