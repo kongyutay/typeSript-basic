@@ -15,3 +15,7 @@ const add3: (num1: number, num2: number) => number = (num1, num2) => {
 }
 //当函数作为表达式的时候，可以通过类似箭头函数形式的语法来为函数添加类型
 
+//3. 没有返回值
+function greet(name: string): void {
+    console.log('Hello', name)
+}
