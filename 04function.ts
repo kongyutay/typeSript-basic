@@ -24,3 +24,4 @@ function greet(name: string): void {
 function mySlice(start?: number, end?: number): void {
     console.log('起始索引', start, '结束索引', end)
 }
+//可选参数只能出现在必选参数之后
