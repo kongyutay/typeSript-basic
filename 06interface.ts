@@ -26,3 +26,12 @@ type IPerson2 = {
 }
 
 type NumStr = number | string
+
+//接口继承
+//如果有两个接口有相同的属性和方法
+interface Point2D {x:number;y:number}
+interface Point3D {x:number;y:number;z:number}
+
+    //应该写成这样
+interface Point2D {x:number;y:number}
+interface Point3D extends Point2D {z:number}
