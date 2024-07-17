@@ -5,3 +5,8 @@ let person: { name: String; age: number; sayHi(name: string): void } = {
     sayHi(name) {}
 }
 //方法的类型也可以用箭头函数形式比如sayHi: ()=> void
+
+//对象可选属性
+function myAxios(config: {url: string; method?: string}) {
+    console.log(config)
+}
